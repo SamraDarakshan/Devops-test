@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 {  
    "configurations":[  
       {  
@@ -42,3 +43,49 @@
       }
    ]
 }
+=======
+{  
+   "configurations":[  
+      {  
+         "name":"test",
+         "policies":[  
+
+         ],
+         "proxies":[  
+
+         ],
+         "targets":[  
+            {  
+               "name":"default.xml",
+               "tokens":[  
+                  {  
+                     "xpath":"/TargetEndpoint/HTTPTargetConnection/URL",
+                     "value":"http://api.usergrid.com/samradarakshan-eval/sandbox/hotels"
+                  }
+               ]
+            }
+         ]
+      },
+      {  
+         "name":"prod",
+         "policies":[  
+
+         ],
+         "proxies":[  
+
+         ],
+         "targets":[  
+            {  
+               "name":"default.xml",
+               "tokens":[  
+                  {  
+                     "xpath":"/TargetEndpoint/HTTPTargetConnection/URL",
+                     "value":"https://api.usergrid.com/samradarakshan-eval/sandbox/hotels"
+                  }
+               ]
+            }
+         ]
+      }
+   ]
+}
+>>>>>>> 4eb10eb96e54b8b12bd3eeff2601c0c4e2359926
