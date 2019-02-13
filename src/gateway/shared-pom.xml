@@ -1,4 +1,3 @@
-
 <!--
     Copyright (C) 2014 Apigee Corporation
     Licensed under the Apache License, Version 2.0 (the "License");
@@ -100,11 +99,9 @@
                 <apigee.env>test</apigee.env>
                 <apigee.hosturl>https://api.enterprise.apigee.com</apigee.hosturl>
                 <apigee.apiversion>v1</apigee.apiversion>
-                        <apigee.hosturl>https://api.enterprise.apigee.com</apigee.hosturl>
-						<apigee.apiversion>v1</apigee.apiversion>
-						<apigee.org>\samradarakshan-eval</apigee.org>
-						<apigee.username>\samra.darakshan@royalcyber.com</apigee.username>
-						<apigee.password>\Samra4!)</apigee.password>
+                <apigee.org>${org}</apigee.org>
+                <apigee.username>${username}</apigee.username>
+                <apigee.password>${password}</apigee.password>
                 <!--<apigee.options>${options}</apigee.options>
                 <apigee.revision>${revision}</apigee.revision> --> <!-- used while trying to update revision, use when option=update only -->
                 <!--apigee.override.delay>10</apigee.override.delay-->
@@ -120,9 +117,9 @@
                 <apigee.env>prod</apigee.env>
                 <apigee.hosturl>https://api.enterprise.apigee.com</apigee.hosturl>
                 <apigee.apiversion>v1</apigee.apiversion>
-                <apigee.org>\samradarakshan-eval</apigee.org>
-				<apigee.username>\samra.darakshan@royalcyber.com</apigee.username>
-				<apigee.password>\Samra4!)</apigee.password>
+                <apigee.org>${org}</apigee.org>
+                <apigee.username>${username}</apigee.username>
+                <apigee.password>${password}</apigee.password>
                 <!--<apigee.options>${options}</apigee.options>
                 <apigee.revision>${revision}</apigee.revision> --><!-- used while trying to update revision, use when option=update only -->
                 <!--apigee.override.delay>10</apigee.override.delay-->
@@ -130,8 +127,4 @@
             </properties>
         </profile>
     </profiles>
-<<<<<<< HEAD
 </project>
-=======
-</project>
->>>>>>> 4eb10eb96e54b8b12bd3eeff2601c0c4e2359926
