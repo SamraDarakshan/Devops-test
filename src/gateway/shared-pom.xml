@@ -100,11 +100,11 @@
                 <apigee.env>test</apigee.env>
                 <apigee.hosturl>https://api.enterprise.apigee.com</apigee.hosturl>
                 <apigee.apiversion>v1</apigee.apiversion>
-                        <apigee.hosturl>https://enterprise.apigee.com</apigee.hosturl>
+                        <apigee.hosturl>https://api.enterprise.apigee.com</apigee.hosturl>
 						<apigee.apiversion>v1</apigee.apiversion>
-						<apigee.org>\samradarakshan-eval</apigee.org>
-						<apigee.username>\samra.darakshan@royalcyber.com</apigee.username>
-						<apigee.password>\Samra4!)</apigee.password>
+						<apigee.org>samradarakshan-eval</apigee.org>
+						<apigee.username>samra.darakshan@royalcyber.com</apigee.username>
+						<apigee.password>Samra4!)</apigee.password>
                 <!--<apigee.options>${options}</apigee.options>
                 <apigee.revision>${revision}</apigee.revision> --> <!-- used while trying to update revision, use when option=update only -->
                 <!--apigee.override.delay>10</apigee.override.delay-->
@@ -114,15 +114,15 @@
         <profile>
             <id>prod</id>
             <properties>
-                <org>samradarakshan-eval</org>  <!-- default org, replace with default org to avoid passing parameter e.g. -Dorg testmyapi -->
+                <org>ssridhar</org>  <!-- default org, replace with default org to avoid passing parameter e.g. -Dorg testmyapi -->
                 <options>validate</options> 
                 <apigee.profile>prod</apigee.profile>
                 <apigee.env>prod</apigee.env>
-                <apigee.hosturl>https://enterprise.apigee.com</apigee.hosturl>
+                <apigee.hosturl>https://api.enterprise.apigee.com</apigee.hosturl>
                 <apigee.apiversion>v1</apigee.apiversion>
-                <apigee.org>\samradarakshan-eval</apigee.org>
-				<apigee.username>\samra.darakshan@royalcyber.com</apigee.username>
-				<apigee.password>\Samra4!)</apigee.password>
+                <apigee.org>samradarakshan-eval</apigee.org>
+				<apigee.username>samra.darakshan@royalcyber.com</apigee.username>
+				<apigee.password>Samra4!)</apigee.password>
                 <!--<apigee.options>${options}</apigee.options>
                 <apigee.revision>${revision}</apigee.revision> --><!-- used while trying to update revision, use when option=update only -->
                 <!--apigee.override.delay>10</apigee.override.delay-->
